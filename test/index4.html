@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Emmanuel Higginsking | Freelance Developer</title>
+  <meta
+    name="description"
+    content="Freelance JavaScript and React Native developer from Nigeria building mobile apps and web solutions for clients."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&family=Space+Grotesk:wght@500;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style4.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand">
+      <span class="brand-mark">EH</span>
+      <span class="brand-text">Emmanuel Higginsking</span>
+    </div>
+    <nav class="site-nav" aria-label="Main navigation">
+      <a href="#home" class="nav-link active">Home</a>
+      <a href="#skills" class="nav-link">Skills</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#portfolio" class="nav-link">Portfolio</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero reveal" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">Self-taught JavaScript • React Native • Freelance</p>
+        <h1>
+          Hi, I'm <span>Emmanuel Higginsking</span>
+        </h1>
+        <div class="typewriter-wrap" aria-live="polite">
+          <span class="prompt">&gt;</span>
+          <span id="typewriter-text" class="typewriter-text"></span>
+          <span class="cursor" aria-hidden="true"></span>
+        </div>
+        <p class="value-prop">I turn ideas into real, working apps — mobile and web.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#skills">View My Work</a>
+          <a class="btn btn-secondary" href="#contact">Let's Talk</a>
+          <a class="btn btn-download" href="/higginsking CV.pdf" download>Download CV</a>
+        </div>
+
+        <div class="editor-shell" aria-label="Code terminal preview">
+          <div class="editor-bar">
+            <span class="dots"><i></i><i></i><i></i></span>
+            <span class="editor-title">portfolio.js</span>
+          </div>
+          <div class="editor-body">
+            <div class="line-numbers" aria-hidden="true">
+              <span>1</span><span>2</span><span>3</span><span>4</span><span>5</span>
+            </div>
+            <code>
+              <span class="token-keyword">const</span> <span class="token-var">developer</span> = {
+              <span class="token-keyword">  stack</span>: ["JavaScript", "React Native", "Expo", "Node.js"],
+              <span class="token-keyword">  focus</span>: "Building useful apps for clients",
+              <span class="token-keyword">  status</span>: "Available for freelance work"
+              };
+            </code>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="photo-ring"></div>
+        <img src="photos/2.jpg" alt="Portrait of Emmanuel Higginsking" class="profile-photo" />
+      </div>
+    </section>
+
+    <section class="skills reveal" id="skills">
+      <div class="section-heading">
+        <p class="section-label">Skill Stack</p>
+        <h2>What I build and how I work.</h2>
+      </div>
+
+      <div class="skill-grid">
+        <article class="skill-card">
+          <div class="tab-top">JavaScript</div>
+          <h3>Core fundamentals, DOM, and clean logic.</h3>
+          <p>Comfortable with variables, functions, loops, and DOM manipulation. I build practical solutions from the ground up and keep the logic easy to understand.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="tab-top">HTML/CSS</div>
+          <h3>Responsive interfaces that look professional.</h3>
+          <p>I can structure pages semantically and style clean layouts that feel complete on desktop, tablet, and mobile.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="tab-top">Node.js</div>
+          <h3>Light backend work and API handling.</h3>
+          <p>I can set up simple servers, work with APIs, and move data between the front end and backend without overcomplicating things.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="tab-top">React Native / Expo</div>
+          <h3>Two Android apps shipped and counting.</h3>
+          <p>I have built production-ready Android apps with Expo and understand the practical flow of turning app ideas into usable mobile products.</p>
+        </article>
+
+        <article class="skill-card">
+          <div class="tab-top">Git / GitHub</div>
+          <h3>Version control basics, repo flow, and commits.</h3>
+          <p>I’m comfortable with the essentials of Git and GitHub, including branching, commits, and keeping work organized as it moves forward.</p>
+        </article>
+      </div>
+
+      <div class="soft-skills">
+        <span>Problem-solving</span>
+        <span>Fast learner</span>
+        <span>Attention to detail</span>
+        <span>Self-taught</span>
+      </div>
+    </section>
+
+    <section class="about reveal" id="about">
+      <div class="section-heading">
+        <p class="section-label">About</p>
+        <h2>Built from curiosity, practice, and real delivery.</h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-copy">
+          <p>
+            I’m a self-taught developer from Nigeria who started with JavaScript and grew into building mobile apps with React Native and Expo.
+          </p>
+          <p>
+            My path has been hands-on: learn the fundamentals, build something useful, then improve with every project. That mindset has helped me move from browser logic to mobile app delivery and now into broader full-stack work.
+          </p>
+          <p>
+            I’m available for freelance work and I enjoy helping clients bring ideas into a working product quickly, clearly, and without unnecessary complexity.
+          </p>
+        </div>
+
+        <aside class="stat-strip" aria-label="Quick profile stats">
+          <div>
+            <strong>2</strong>
+            <span>Android apps shipped</span>
+          </div>
+          <div>
+            <strong>Self-taught</strong>
+            <span>From fundamentals to delivery</span>
+          </div>
+          <div>
+            <strong>Available</strong>
+            <span>For freelance projects</span>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section class="portfolio reveal" id="portfolio">
+      <div class="section-heading">
+        <p class="section-label">Portfolio</p>
+        <h2>Selected snapshots from my work.</h2>
+      </div>
+
+      <div class="portfolio-grid">
+        <article class="project-card">
+          <div class="project-media">
+            <img src="/test/photos/front1.png" alt="Mobile app showcase screenshot" />
+          </div>
+          <div class="project-copy">
+            <span class="project-type">Mobile App</span>
+            <h3>Expo Android app delivery</h3>
+            <p>Clean mobile-first UX, practical workflow logic, and app development geared toward real client use.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="/test/photos/Screenshot 2026-07-15 020230.png" alt="Responsive website showcase screenshot" />
+          </div>
+          <div class="project-copy">
+            <span class="project-type">Web Solution</span>
+            <h3>Responsive  website build</h3>
+            <p>Fast, readable layout design with a clear conversion path for visitors to contact and request work.</p>
+          </div>
+        </article>
+
+        <article class="project-card">
+          <div class="project-media">
+            <img src="/test/photos/backend.png" alt="Backend and API showcase screenshot" />
+          </div>
+          <div class="project-copy">
+            <span class="project-type">Node.js</span>
+            <h3>Simple API and backend flow</h3>
+            <p>Light server-side work with data handling, basic node workthrough, and project structure that stays easy to maintain.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer reveal" id="contact">
+    <div class="section-heading">
+      <p class="section-label">Contact</p>
+      <h2>Let’s build your next app.</h2>
+    </div>
+
+    <div class="contact-card">
+      <a class="contact-link" href="mailto:higginsmsendoo@gmail.com">higginsmsendoo@gmail.com</a>
+      <div class="contact-links">
+        <a href="https://github.com/higgins-ui" target="_blank" rel="noreferrer">GitHub</a>
+        <a href="https://wa.me/2348127669236" target="_blank" rel="noreferrer">Whatsapp</a>
+        <a href="https://www.tiktok.com/@higginsking" target="_blank" rel="noreferrer">TikTok</a>
+        <a href="https://www.terawork.com/home/higgins" target="_blank" rel="noreferrer">Terawork</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script4.js"></script>
+</body>
+</html>
