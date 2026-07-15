@@ -307,6 +307,22 @@ main,
   filter: blur(8px);
 }
 
+.location-badge {
+  position: absolute;
+  right: 12px;
+  bottom: -1px;
+  padding: 10px 14px;
+  border-radius: 999px;
+  background: rgba(11, 14, 20, 0.88);
+  border: 1px solid rgba(227, 146, 26, 0.6);
+  color: var(--text);
+  font-size: 0.92rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(8px);
+}
+
 .profile-photo {
   position: relative;
   width: min(450px, 84vw);
